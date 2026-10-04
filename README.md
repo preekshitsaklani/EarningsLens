@@ -4,6 +4,11 @@ EarningsLens reads earnings-call transcripts from India's largest banks, extract
 
 Coverage: ICICI Bank, HDFC Bank, Axis Bank, Kotak Mahindra Bank and State Bank of India, Q4 FY25 to Q1 FY27 (30 calls).
 
+> **Related project:** the grounding and extraction approach here was adapted
+> for SEC filings in [StreetLens](https://github.com/preekshitsaklani/StreetLens),
+> a US financials research platform covering JPMorgan Chase, Goldman Sachs,
+> BlackRock and State Street.
+
 ## Why it exists
 
 An analyst covering five banks reads about 20 transcripts a quarter, mainly to answer three questions: what did each bank report, what did management promise, and did it deliver last time? LLMs can do the reading, but in research a single invented number is worse than no answer. EarningsLens therefore treats every LLM output as a claim that has to be checked against the source before anyone sees it.
